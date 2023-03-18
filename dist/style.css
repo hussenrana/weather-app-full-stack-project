@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(168, 161, 161);
+}
+
+span {
+  content: "\2103";
+}
+
+#cities {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.city-weather {
+  display: block;
+  width: 25%;
+  height: 25%;
+  margin: 5px;
+  order: 3;
+  padding: 20px;
+  align-content: center;
+  align-self: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 10px 10px 8px 10px #888888;
+  background-color: rgb(71, 71, 203);
+  justify-content: center;
+}
+#new-city-weather {
+  margin: 100px;
+}
+
+i {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
